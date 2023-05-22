@@ -1,9 +1,8 @@
 var mysql = require("mysql");
 
-const con = mysql.createConnection({
-    host:"localhost",
-    user:"root",
-    password:"",
-    database: "ztrxwlrp_tech_geeks"
-});
+host:"nodeapi.cvz5julykbwk.ap-northeast-1.rds.amazonaws.com",
+    user:"admin",
+    password:"testing123",
+    database: "techgeeks",
+    port:3306
 module.exports = {con}
